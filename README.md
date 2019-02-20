@@ -1,6 +1,6 @@
-# [NOTICE] [ENG] This file was originally changed by I Putu Jaya Adi Pranata, if you find this file but you get this file from another source not from my Github, I am not responsible for anything that happens. Thank you for being faithful to using toolsig. 
+### [NOTICE] [ENG] This file was originally changed by I Putu Jaya Adi Pranata, if you find this file but you get this file from another source not from my Github, I am not responsible for anything that happens. Thank you for being faithful to using toolsig. 
 
-# [PEMBERITAHUAN] [ID] File ini pada awalnya diubah oleh I Putu Jaya Adi Pranata, jika Anda menemukan file ini tetapi Anda mendapatkan file ini dari sumber lain bukan dari Github saya, saya tidak bertanggung jawab atas apa pun yang terjadi. Terima kasih telah setia menggunakan toolsig.
+### [PEMBERITAHUAN] [ID] File ini pada awalnya diubah oleh I Putu Jaya Adi Pranata, jika Anda menemukan file ini tetapi Anda mendapatkan file ini dari sumber lain bukan dari Github saya, saya tidak bertanggung jawab atas apa pun yang terjadi. Terima kasih telah setia menggunakan toolsig.
 
 ## INSTAGRAM TOOLS
 * Instagram Tools Based on NodeJS (This script or code was created by ccocot - Aldi Nugraha).
