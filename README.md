@@ -43,8 +43,8 @@ $ [License](#license)
 	$ node index.js
 
 ## Tutorial on PC/LAPTOP [OS]
-	# Download dan Install Git for Windows (Link Download: https://s.id/2yGtu)
-	# Download dan Install NodeJs for Windows (Khusus Versi 9.3.0 *WORK)
+	# Download & Install Git for Windows (Link Download: https://s.id/2yGtu)
+	# Download & Install NodeJs for Windows (Versi 9.3.0 *WORK)
 		-> 64bit (https://nodejs.org/dist/v9.3.0/node-v9.3.0-x64.msi)
 		-> 32bit (https://nodejs.org/dist/v9.3.0/node-v9.3.0-x86.msi)
 	# Download File toolsig (https://s.id/2yGC6) & Extract the file
