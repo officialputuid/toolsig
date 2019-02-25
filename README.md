@@ -11,8 +11,7 @@
 
 <p align="center">
     <a href="https://s.id/2nFcX"><img src="https://i2-prod.manchestereveningnews.co.uk/incoming/article14045218.ece/ALTERNATES/s1200/complete-instagram-marketing-Guide-for-startups-1-1080x675.png" alt="Instagram, Pict by Google.com | w3livenews.com" /></a><br /><br />
-	<i><b>.: Instagram, Pict by w3livenews.com :.</b></i><br/>
-<b>My Social Media: fb|ig|twitter|gplus|line|github? officialputuid.</b>
+	<i><b>.: Instagram, Pict by w3livenews.com :.</b></i>
 </p>
 
 ## Table of Contents
@@ -22,6 +21,7 @@ $ [Warning](#warning)
 $ [Update](#update)
 $ [Contributing](#contributing)
 $ [License](#license)
+$ [My Social Media](#my-social-media)
 
 ## Default or Basic Usage
 	$ git clone https://github.com/officialputuid/toolsig
@@ -85,3 +85,10 @@ $ [License](#license)
 	
 ## License
 	☑ This project is licensed under MIT License 2017-2019. https://opensource.org/licenses/MIT.
+	
+## My Social Media
+	☑ LINE		: https://line.me/ti/p/~officialputuid
+	☑ Instagram	: https://instagram.com/officialputuid
+	☑ Facebook	: https://facebook.com/officialputuid
+	☑ Twitter	: https://twitter.com/officialputuid
+	☑ Github	: https://github.com/officialputuid
