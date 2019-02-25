@@ -10,8 +10,8 @@
 [![Badges](https://img.shields.io/badge/badges-%F0%9F%91%8D-brightgreen.svg)](https://shields.io/)
 
 <p align="center">
-    <a href="https://s.id/2nFcX"><img src="https://cdn-images-1.medium.com/max/1250/1*GzKmbDXYEOHQdb6MWgs3mw.jpeg" alt="Instagram Banner, Pict by Google.com" /></a><br /><br />
-	<i><b>(Image by: Google.com - Title: Instagram Banner!)</b></i>
+    <a href="https://s.id/2nFcX"><img src="https://i2-prod.manchestereveningnews.co.uk/incoming/article14045218.ece/ALTERNATES/s1200/complete-instagram-marketing-Guide-for-startups-1-1080x675.png" alt="Instagram, Pict by Google.com | w3livenews.com" /></a><br /><br />
+	<i><b>(Instagram, Pict by w3livenews.com)</b></i>
 </p>
 
 ## Table of Contents
