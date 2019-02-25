@@ -11,7 +11,8 @@
 
 <p align="center">
     <a href="https://s.id/2nFcX"><img src="https://i2-prod.manchestereveningnews.co.uk/incoming/article14045218.ece/ALTERNATES/s1200/complete-instagram-marketing-Guide-for-startups-1-1080x675.png" alt="Instagram, Pict by Google.com | w3livenews.com" /></a><br /><br />
-	<i><b>(Instagram, Pict by w3livenews.com)</b></i>
+	<i><b>.: Instagram, Pict by w3livenews.com :.</b></i><br/>
+<b>My Social Media: fb|ig|twitter|gplus|line|github? officialputuid.</b>
 </p>
 
 ## Table of Contents
