@@ -36,7 +36,7 @@ $ [My Social Media](#my-social-media)
 	$ unzip node_modules.zip
 	$ node index.js
 
-## Tutorial on C9io/CodeAnywhere [CLOUD VPS]
+## Tutorial on C9io/CodeAnywhere [WEB VERSION]
 	# Select & Install Workspace + Package NodeJS
 	$ nvm install 10.7.0 && nvm use 10.7.0 && nvm alias default 10.7.0
 	$ git clone https://github.com/officialputuid/toolsig && cd toolsig
