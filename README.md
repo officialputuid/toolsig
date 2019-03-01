@@ -20,8 +20,8 @@ $ [Information Tools](#information-tools)
 $ [Warning](#warning)
 $ [Update](#update)
 $ [Contributing](#contributing)
-$ [License](#license)
 $ [My Social Media](#my-social-media)
+$ [License](#license)
 
 ## Default or Basic Usage
 	$ git clone https://github.com/officialputuid/toolsig
@@ -55,16 +55,16 @@ $ [My Social Media](#my-social-media)
 	$ node index.js
 
 ## Information Tools
-	$ BomLikeTarget	    "LIKE/LOVE ALL MEDIA/POST TARGET"		[USING ITTYW]			[f-01]
-	$ Botlike1	    "LIKE/LOVE TIMELINE INSTAGRAM"		[5 TARGET/DELAY]		[f-02]
-	$ Botlike2	    "LIKE/LOVE TIMELINE INSTAGRAM" 		[USING CURSOR *AUTOMATIC]	[f-03]
-	$ Dellallphoto	    "DELETE ALL MEDIA/POST INSTAGRAM" 		[USING ITTYW]			[f-04]
-	$ Fah		    "FOLLOW,LIKE,COMMENT TARGET HASTAG" 	[USING ITTYW]			[f-05]
-	$ Fftauto	    "FOLLOW,LIKE,COMMENT TARGET FOLLOWER USER"	[USING ITTYW]			[f-06]
-	$ Flaauto	    "FOLLOW,LIKE,COMMENT TARGET LOCATION-ID" 	[USING CURSOR *AUTOMATIC]	[f-07]
-	$ Flmaut	    "FOLLOW,LIKE,COMMENT TARGET MEDIA/POST" 	[USING ITTYW]			[f-08]
-	$ Unfollall	    "UNFOLOW ALL FOLLOWING INSTAGRAM" 		[USING ITTYW]			[f-09]
-	$ Unfollnotfollback "UNFOLLOW NOT FOLLOWBACK INSTAGRAM" 	[USING ITTYW]			[f-10]
+	$ BomLikeTarget	    "LIKE/LOVE ALL MEDIA/POST TARGET"		[USING ITTYW]		   [f-01][NORMAL]
+	$ Botlike1	    "LIKE/LOVE TIMELINE INSTAGRAM"		[5 TARGET/DELAY]	   [f-02][NORMAL]
+	$ Botlike2	    "LIKE/LOVE TIMELINE INSTAGRAM" 		[USING CURSOR *AUTOMATIC]  [f-03][NORMAL]
+	$ Dellallphoto	    "DELETE ALL MEDIA/POST INSTAGRAM" 		[USING ITTYW]		   [f-04][NORMAL]
+	$ Fah		    "FOLLOW,LIKE,COMMENT TARGET HASTAG" 	[USING ITTYW]		   [f-05][NORMAL]
+	$ Fftauto	    "FOLLOW,LIKE,COMMENT TARGET FOLLOWER USER"	[USING ITTYW]		   [f-06][NORMAL]
+	$ Flaauto	    "FOLLOW,LIKE,COMMENT TARGET LOCATION-ID" 	[USING CURSOR *AUTOMATIC]  [f-07][NORMAL]
+	$ Flmaut	    "FOLLOW,LIKE,COMMENT TARGET MEDIA/POST" 	[USING ITTYW]		   [f-08][NORMAL]
+	$ Unfollall	    "UNFOLOW ALL FOLLOWING INSTAGRAM" 		[USING ITTYW]		   [f-09][NORMAL]
+	$ Unfollnotfollback "UNFOLLOW NOT FOLLOWBACK INSTAGRAM" 	[USING ITTYW]		   [f-10][NORMAL]
 
 ## Warning
 	⚠ Use tools at your own risk.
@@ -84,12 +84,12 @@ $ [My Social Media](#my-social-media)
 	☆ Thank you for the help of all members SGB TEAM REBORN (https://www.sgb.or.id/).
 	☆ Change Instagram API & Enter into Packages, Add ITTYW to all tools and testing by officialputuid.
 	
-## License
-	☑ This project is licensed under MIT License 2017-2019. https://opensource.org/licenses/MIT.
-	
 ## My Social Media
 	☑ LINE		: https://line.me/ti/p/~officialputuid
 	☑ Instagram	: https://instagram.com/officialputuid
 	☑ Facebook	: https://facebook.com/officialputuid
 	☑ Twitter	: https://twitter.com/officialputuid
 	☑ Github	: https://github.com/officialputuid
+	
+## License
+	☑ This project is licensed under MIT License 2017-2019. https://opensource.org/licenses/MIT.
