@@ -55,16 +55,16 @@ $ [My Social Media](#my-social-media)
 	$ node index.js
 
 ## Information Tools
-	$ [feature-01] BomLikeTarget		"LIKE/LOVE ALL MEDIA/POST TARGET USING ITTYW"
-	$ [feature-02] Botlike1			"LIKE/LOVE TIMELINE INSTAGRAM 5 TARGET/DELAY"
-	$ [feature-03] Botlike2			"LIKE/LOVE TIMELINE INSTAGRAM USING CURSOR *AUTOMATIC"
-	$ [feature-04] Dellallphoto		"DELETE ALL MEDIA/POST INSTAGRAM USING ITTYW"
-	$ [feature-05] Fah			"FOLLOW,LIKE,COMMENT TARGET HASTAG USING ITTYW"
-	$ [feature-06] Fftauto			"FOLLOW,LIKE,COMMENT TARGET FOLLOWER USER USING ITTYW"
-	$ [feature-07] Flaauto			"FOLLOW,LIKE,COMMENT TARGET LOCATION-ID USING CURSOR *AUTOMATIC"
-	$ [feature-08] Flmauto			"FOLLOW,LIKE,COMMENT TARGET MEDIA/POST USING ITTYW"
-	$ [feature-09] Unfollall		"UNFOLOW ALL FOLLOWING INSTAGRAM USING ITTYW"
-	$ [feature-10] Unfollnotfollback	"UNFOLLOW NOT FOLLOWBACK INSTAGRAM USING ITTYW"
+	$ BomLikeTarget	    "LIKE/LOVE ALL MEDIA/POST TARGET"		[USING ITTYW]			[f-01]
+	$ Botlike1	    "LIKE/LOVE TIMELINE INSTAGRAM"		[5 TARGET/DELAY]		[f-02]
+	$ Botlike2	    "LIKE/LOVE TIMELINE INSTAGRAM" 		[USING CURSOR *AUTOMATIC]	[f-03]
+	$ Dellallphoto	    "DELETE ALL MEDIA/POST INSTAGRAM" 		[USING ITTYW]			[f-04]
+	$ Fah		    "FOLLOW,LIKE,COMMENT TARGET HASTAG" 	[USING ITTYW]			[f-05]
+	$ Fftauto	    "FOLLOW,LIKE,COMMENT TARGET FOLLOWER USER"	[USING ITTYW]			[f-06]
+	$ Flaauto	    "FOLLOW,LIKE,COMMENT TARGET LOCATION-ID" 	[USING CURSOR *AUTOMATIC]	[f-07]
+	$ Flmaut	    "FOLLOW,LIKE,COMMENT TARGET MEDIA/POST" 	[USING ITTYW]			[f-08]
+	$ Unfollall	    "UNFOLOW ALL FOLLOWING INSTAGRAM" 		[USING ITTYW]			[f-09]
+	$ Unfollnotfollback "UNFOLLOW NOT FOLLOWBACK INSTAGRAM" 	[USING ITTYW]			[f-10]
 
 ## Warning
 	⚠ Use tools at your own risk.
@@ -88,8 +88,8 @@ $ [My Social Media](#my-social-media)
 	☑ This project is licensed under MIT License 2017-2019. https://opensource.org/licenses/MIT.
 	
 ## My Social Media
-	☑ LINE		: (https://line.me/ti/p/~officialputuid)
-	☑ Instagram	: (https://instagram.com/officialputuid)
-	☑ Facebook	: (https://facebook.com/officialputuid)
-	☑ Twitter	: (https://twitter.com/officialputuid)
-	☑ Github	: (https://github.com/officialputuid)
+	☑ LINE		: https://line.me/ti/p/~officialputuid
+	☑ Instagram	: https://instagram.com/officialputuid
+	☑ Facebook	: https://facebook.com/officialputuid
+	☑ Twitter	: https://twitter.com/officialputuid
+	☑ Github	: https://github.com/officialputuid
