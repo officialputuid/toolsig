@@ -2,7 +2,7 @@
 
 ### [PEMBERITAHUAN] [ID] File ini pada awalnya diubah oleh I Putu Jaya Adi Pranata, jika Anda menemukan file ini tetapi Anda mendapatkan file ini dari sumber lain bukan dari Github saya, saya tidak bertanggung jawab atas apa pun yang terjadi. Terima kasih telah setia menggunakan toolsig.
 
-## INSTAGRAM TOOLS
+## INSTAGRAM TOOLS [TOOLSIG]
 * Instagram Tools Based on NodeJS (This script or code was created by ccocot - Aldi Nugraha).
 * Tools (BomLikeTarget,Botlike1,Botlike2,Dellallphoto,Fah,Fftauto,Flaauto,Flmauto,Unfollall,Unfollnotfollback).
 
@@ -45,32 +45,32 @@ $ [My Social Media](#my-social-media)
 	$ node index.js
 
 ## Tutorial on PC/LAPTOP [OS]
-	# Download & Install Git for Windows (Link Download: https://s.id/2yGtu)
-	# Download & Install NodeJs for Windows (Versi 9.3.0 *WORK)
-		-> 64bit (https://nodejs.org/dist/v9.3.0/node-v9.3.0-x64.msi)
-		-> 32bit (https://nodejs.org/dist/v9.3.0/node-v9.3.0-x86.msi)
+	# Download & Install Git for Windows (Link Download: https://s.id/2yGtu) *direct_link
+	# Download & Install NodeJs for Windows (Versi 9.3.0)
+	  -> 64bit (https://nodejs.org/dist/v9.3.0/node-v9.3.0-x64.msi) *direct_link_64bit
+	  -> 32bit (https://nodejs.org/dist/v9.3.0/node-v9.3.0-x86.msi) *direct_link_32bit
 	# Download File toolsig (https://s.id/2yGC6) & Extract the file
 	# Right Click (Mouse/Touchpad) In toolsig-master Folder & Choose Git Bash Here!
 	$ unzip node_modules.zip
 	$ node index.js
 
 ## Information Tools
-	$ [feature-01] BomLikeTarget		"LIKE/LOVE ALL MEDIA/POST USER"
-	$ [feature-02] Botlike1			"LIKE/LOVE TIMELINE INSTAGRAM"
-	$ [feature-03] Botlike2			"LIKE/LOVE TIMELINE INSTAGRAM"
-	$ [feature-04] Dellallphoto		"DELETE ALL MEDIA/POST INSTAGRAM"
-	$ [feature-05] Fah			"FOLLOW,LIKE,COMMENT TARGET HASTAG"
-	$ [feature-06] Fftauto			"FOLLOW,LIKE,COMMENT TARGET FOLLOWER USER"
-	$ [feature-07] Flaauto			"FOLLOW,LIKE,COMMENT TARGET LOCATION-ID"
-	$ [feature-08] Flmauto			"FOLLOW,LIKE,COMMENT TARGET MEDIA/POST"
-	$ [feature-09] Unfollall		"UNFOLOW ALL FOLLOWING INSTAGRAM"
-	$ [feature-10] Unfollnotfollback	"UNFOLLOW NOT FOLLOWBACK INSTAGRAM"
+	$ [feature-01] BomLikeTarget		"LIKE/LOVE ALL MEDIA/POST TARGET USING ITTYW"
+	$ [feature-02] Botlike1			"LIKE/LOVE TIMELINE INSTAGRAM 5 TARGET/DELAY"
+	$ [feature-03] Botlike2			"LIKE/LOVE TIMELINE INSTAGRAM USING CURSOR *AUTOMATIC"
+	$ [feature-04] Dellallphoto		"DELETE ALL MEDIA/POST INSTAGRAM USING ITTYW"
+	$ [feature-05] Fah			"FOLLOW,LIKE,COMMENT TARGET HASTAG USING ITTYW"
+	$ [feature-06] Fftauto			"FOLLOW,LIKE,COMMENT TARGET FOLLOWER USER USING ITTYW"
+	$ [feature-07] Flaauto			"FOLLOW,LIKE,COMMENT TARGET LOCATION-ID USING CURSOR *AUTOMATIC"
+	$ [feature-08] Flmauto			"FOLLOW,LIKE,COMMENT TARGET MEDIA/POST USING ITTYW"
+	$ [feature-09] Unfollall		"UNFOLOW ALL FOLLOWING INSTAGRAM USING ITTYW"
+	$ [feature-10] Unfollnotfollback	"UNFOLLOW NOT FOLLOWBACK INSTAGRAM USING ITTYW"
 
 ## Warning
 	⚠ Use tools at your own risk.
 	⚠ Use this Tool for personal use, not for sale.
 	⚠ I am not responsible for your account using this tool.
-	⚠ Make sure your account has been verified (Email&NoTlp).
+	⚠ Make sure your account has been verified (Email & Telp).
 
 ## Update
 	☑ [CLEAR] Change Instagram API & Enter into Packages so you don't need to update again.
@@ -79,10 +79,10 @@ $ [My Social Media](#my-social-media)
 	☑ [CLEAR] Improvements In Display Program & Changes in system usage programs to make it easier to use.
 	   
 ## Contributing
-	☆ Aldi Nugraha (Ccocot Ccocot).
+	☆ Aldi Nugraha a.k.a (Ccocot Ccocot).
 	☆ Zerobyte.id - BC0DE.NET - NAONLAH.NET - WingKocoli.
-	☆ Thank you for the help of all members SGB TEAM REBORN.
-	☆ Change Instagram API, Add ITTYW to all tools and testing by officialputuid.
+	☆ Thank you for the help of all members SGB TEAM REBORN (https://www.sgb.or.id/).
+	☆ Change Instagram API & Enter into Packages, Add ITTYW to all tools and testing by officialputuid.
 	
 ## License
 	☑ This project is licensed under MIT License 2017-2019. https://opensource.org/licenses/MIT.
