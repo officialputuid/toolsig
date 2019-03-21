@@ -1,5 +1,5 @@
 'use strict'
-//Changed by Localheartzst1337
+//Last modified by I Putu Jaya Adi Pranata (officialputuid) on March 21, 2019
 const Client = require('instagram-private-api').V1;
 const delay = require('delay');
 const chalk = require('chalk');
@@ -29,17 +29,16 @@ const questionTools = [
   message:"Select tools:\n ",
   choices:
   [
-  "[!] Lihat Informasi Tools",
-  "[-] BomLikeTarget [With Sleep]",
-  "[-] Botlike TL v1 [With Sleep]",
-  "[-] Botlike TL v2 [Automatic]",
-  "[-] Delete All Media/POST IG",
-  "[-] Unfollow All Following",
-  "[-] Unfollow Not Followback",
-  "[-] Follow Followers Target",
-  "[-] Follow Account By Media",
-  "[-] Follow Account By Hastag",
-  "[-] Follow Account By Location",
+  "► Bom Like Target              [USING ITTYW/DELAY]",
+  "► Bot Like Timeline v1         [5 TARGET/DELAY]",
+  "► Bot Like Timeline v2         [USING CURSOR *AUTOMATIC]",
+  "► Mass Delete Post/Photo       [USING ITTYW/DELAY]",
+  "► Unfollow All Following       [USING ITTYW/DELAY]",
+  "► Unfollow Not Followback      [USING ITTYW/DELAY]",
+  "► Follow Followers Target      [USING ITTYW/DELAY]",
+  "► Follow Account By Media      [USING ITTYW/DELAY]",
+  "► Follow Account By Hastag     [USING ITTYW/DELAY]",
+  "► Follow Account By Location   [USING CURSOR *AUTOMATIC]".white.bold,
   "\n"
   ] 
 }
@@ -51,67 +50,63 @@ const main = async () => {
     toolChoise = toolChoise.Tools;
     switch(toolChoise){
 
-      case "[!] Lihat Informasi Tools":
-      const infotools = require('./tools/infotools.js');
-      break;
-
-      case "[-] BomLikeTarget [With Sleep]":
+      case "► Bom Like Target              [USING ITTYW/DELAY]".bold.bgRed:
       const bomliketarget = require('./tools/bomliketarget.js');
       await bomliketarget();
       break;
 
-      case "[-] Botlike TL v1 [With Sleep]":
+      case "► Bot Like Timeline v1         [5 TARGET/DELAY]":
       const botlike = require('./tools/botlike.js');
       await botlike();
       break;
 
-      case "[-] Botlike TL v2 [Automatic]":
+      case "► Bot Like Timeline v2         [USING CURSOR *AUTOMATIC]":
       const botlike2 = require('./tools/botlike2.js');
       await botlike2();
       break;
 
-      case "[-] Delete All Media/POST IG":
+      case "► Mass Delete Post/Photo       [USING ITTYW/DELAY]":
       const dellallphoto = require('./tools/dellallphoto.js');
       await dellallphoto();
       break;
 
-      case "[-] Unfollow All Following":
+      case "► Unfollow All Following       [USING ITTYW/DELAY]":
       const unfollall = require('./tools/unfollall.js');
       await unfollall();
       break;
 
-      case "[-] Unfollow Not Followback":
+      case "► Unfollow Not Followback      [USING ITTYW/DELAY]":
       const unfollnotfollback = require('./tools/unfollnotfollback.js');
       await unfollnotfollback();
       break;
 
-      case "[-] Follow Followers Target":
+      case "► Follow Followers Target      [USING ITTYW/DELAY]":
       const fftauto = require('./tools/fftauto.js');
       await fftauto();
       break;
 
-      case "[-] Follow Account By Media":
+      case "► Follow Account By Media      [USING ITTYW/DELAY]":
       const flmauto = require('./tools/flmauto.js');
       await flmauto();
       break;
 
-      case "[-] Follow Account By Hastag":
+      case "► Follow Account By Hastag     [USING ITTYW/DELAY]":
       const fah = require('./tools/fah.js');
       await fah();
       break;
 
-      case "[-] Follow Account By Location":
+      case "► Follow Account By Location   [USING CURSOR *AUTOMATIC]":
       const flaauto = require('./tools/flaauto.js');
       await flaauto();
       break;
 
       default:
-      console.log('\nERROR:\n[?] Aw, Snap! \n[!] Something went wrong while displaying this tool!\n[!] Please try again!');
+      console.log("\n ERROR:".red.bold,"Aw, Snap! Something went wrong while displaying this tool!\n".green.bold,"NOT FOUND! Please try again!".yellow.bold);
     }
   } catch(e) {
     }
   }
-  //this info was made by Localheartzst1337
+  //Last modified by I Putu Jaya Adi Pranata (officialputuid) on March 21, 2019
 
   console.log(chalk`{bold.green
   Ξ TITLE  : INSTAGRAM PRIVATE TOOLS
