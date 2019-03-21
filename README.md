@@ -72,11 +72,11 @@ $ [License](#license)
 	⚠ Make sure your account has been verified (Email & Telp).
 
 ## Update
-	☑ [Completed] Instagram API issues
+	☑ [Completed] Instagram API issues.
 	☑ [Completed] Problem in some tools because of nodejs error.
 	☑ [Completed] Problem with using this tool in RDP (Ex: TRY TO LOGIN dll).
 	☑ [Completed] Addition of features (Input Total of Target You Want/ITTYW) on all tools.
-	☑ [Completed] The update has been included in the Package so you don't need to update again [API IG].
+	☑ [Completed] The update has been included in the Package so you don't need to update again (API IG).
 	☑ [Completed] Improvements In Display Program & Changes in system usage programs to make it easier to use.
 	   
 ## Contributing
@@ -94,4 +94,4 @@ $ [License](#license)
 	
 ## License
 	☑ This project is licensed under MIT License 2017-2019. https://opensource.org/licenses/MIT.
-	☑ Last modified by officialputuid on March 21, 2019 
+	☑ Last modified by I Putu Jaya Adi Pranata (officialputuid) on March 21, 2019 
