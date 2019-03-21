@@ -38,7 +38,7 @@ const questionTools = [
   "► Follow Followers Target      [USING ITTYW/DELAY]",
   "► Follow Account By Media      [USING ITTYW/DELAY]",
   "► Follow Account By Hastag     [USING ITTYW/DELAY]",
-  "► Follow Account By Location   [USING CURSOR *AUTOMATIC]".white.bold,
+  "► Follow Account By Location   [USING CURSOR *AUTOMATIC]",
   "\n"
   ] 
 }
@@ -50,7 +50,7 @@ const main = async () => {
     toolChoise = toolChoise.Tools;
     switch(toolChoise){
 
-      case "► Bom Like Target              [USING ITTYW/DELAY]".bold.bgRed:
+      case "► Bom Like Target              [USING ITTYW/DELAY]":
       const bomliketarget = require('./tools/bomliketarget.js');
       await bomliketarget();
       break;
