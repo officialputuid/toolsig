@@ -1,5 +1,5 @@
 'use strict'
-//Changed by Localheartzst1337
+//Last modified by I Putu Jaya Adi Pranata (officialputuid) on March 21, 2019
 const Client = require('instagram-private-api').V1;
 const delay = require('delay');
 const chalk = require('chalk');
@@ -102,10 +102,10 @@ const Excute = async function(User){
         console.log(err);
     }
 }
-console.log(chalk`{bold.green
+console.log(chalk`{bold.cyan
   Ξ TITLE  : BOTLIKE TIMELINE v2 [Automatic]
   Ξ CODE   : CYBER SCREAMER CCOCOT (ccocot@bc0de.net)
-  Ξ STATUS : ITTYW : {bold.red Not Supported!}}
+  Ξ STATUS : {bold.red [-ITTWY]} & {bold.yellow [TESTED]}}
       `);
 
 inquirer.prompt(User)
