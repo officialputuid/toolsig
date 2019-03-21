@@ -11,7 +11,6 @@
 
 <p align="center">
     <a href="https://s.id/2nFcX"><img src="https://i2-prod.manchestereveningnews.co.uk/incoming/article14045218.ece/ALTERNATES/s1200/complete-instagram-marketing-Guide-for-startups-1-1080x675.png" alt="Instagram, Pict by Google.com | w3livenews.com" /></a><br /><br />
-	<i><b>.: Instagram, Pict by w3livenews.com :.</b></i>
 </p>
 
 ## Table of Contents
@@ -73,16 +72,18 @@ $ [License](#license)
 	⚠ Make sure your account has been verified (Email & Telp).
 
 ## Update
-	☑ [CLEAR] Change Instagram API & Enter into Packages so you don't need to update again.
-	☑ [CLEAR] Change some changes to usage at RDP (Ex: TRY TO LOGIN dll).
-	☑ [CLEAR] Addition of features (Input Total of Target You Want/ITTYW) on all tools.
-	☑ [CLEAR] Improvements In Display Program & Changes in system usage programs to make it easier to use.
+	☑ [Completed] Instagram API issues
+	☑ [Completed] Problem in some tools because of nodejs error.
+	☑ [Completed] Problem with using this tool in RDP (Ex: TRY TO LOGIN dll).
+	☑ [Completed] Addition of features (Input Total of Target You Want/ITTYW) on all tools.
+	☑ [Completed] The update has been included in the Package so you don't need to update again [API IG].
+	☑ [Completed] Improvements In Display Program & Changes in system usage programs to make it easier to use.
 	   
 ## Contributing
 	☆ Aldi Nugraha a.k.a (Ccocot Ccocot).
 	☆ Zerobyte.id - BC0DE.NET - NAONLAH.NET - WingKocoli.
 	☆ Thank you for the help of all members SGB TEAM REBORN (https://www.sgb.or.id/).
-	☆ Change Instagram API & Enter into Packages, Add ITTYW to all tools and testing by officialputuid.
+	☆ Change Instagram API & Enter into Packages, add ITTYW in some tools and testing by officialputuid.
 	
 ## My Social Media
 	☑ LINE		: https://line.me/ti/p/~officialputuid
@@ -93,3 +94,4 @@ $ [License](#license)
 	
 ## License
 	☑ This project is licensed under MIT License 2017-2019. https://opensource.org/licenses/MIT.
+	☑ Last modified by officialputuid on March 21, 2019 
