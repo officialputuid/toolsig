@@ -1,5 +1,5 @@
 'use strict'
-//Changed by Localheartzst1337
+//Last modified by I Putu Jaya Adi Pranata (officialputuid) on March 21, 2019
 const Client = require('instagram-private-api').V1;
 const chalk = require('chalk');
 const delay = require('delay');
@@ -161,10 +161,10 @@ const doMain = async (account, hastag, sleep, text, ittyw) => {
     console.log(e);
   }
 }
-console.log(chalk`{bold.green
+console.log(chalk`{bold.cyan
   Ξ TITLE  : FAH [FOLLOW-LIKE-COMMENT TARGET HASTAG]
   Ξ CODE   : CYBER SCREAMER CCOCOT (ccocot@bc0de.net)
-  Ξ STATUS : ITTYW : {bold.green Supported!}}
+  Ξ STATUS : {bold.green [+ITTWY]} & {bold.yellow [TESTED]}}
       `);
 inquirer.prompt(question)
 .then(answers => {
