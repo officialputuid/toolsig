@@ -1,12 +1,12 @@
 'use strict'
 //Last modified by I Putu Jaya Adi Pranata (officialputuid) on March 21, 2019
-const Client = require('instagram-private-api').V1;
+const Client = require('instagram-private-api').V1; 
 const delay = require('delay');
 const chalk = require('chalk');
 const inquirer = require('inquirer');
-var moment = require("moment");
-var colors = require('colors');
-var userHome = require('user-home');
+var moment = require("moment"); //DETECT CALENDER
+var colors = require('colors'); //DETECT COLORS
+var userHome = require('user-home'); //DETECT USER PC/HOME
 
 //DETECT IP *START!
 var os = require('os');
@@ -44,7 +44,7 @@ const questionTools = [
 }
 ]
 const main = async () => {
-  //var Localheartzst1337;
+  //Last modified by I Putu Jaya Adi Pranata (officialputuid) on March 21, 2019
   try{
     var toolChoise = await inquirer.prompt(questionTools);
     toolChoise = toolChoise.Tools;
