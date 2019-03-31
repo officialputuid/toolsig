@@ -1,5 +1,9 @@
 'use strict'
-//Last modified by I Putu Jaya Adi Pranata (officialputuid) on March 21, 2019
+
+// Recode by officialputuid
+// Last modified by I Putu Jaya Adi Pranata (officialputuid) on March 30, 2019
+// fb|ig|twitter|gplus|line|github|behance|medium? officialputuid & https://officialputu.id
+
 const Client = require('instagram-private-api').V1;
 const delay = require('delay');
 const chalk = require('chalk');
@@ -99,20 +103,22 @@ const Delete = async function(session, id){
 
 const Excute = async function(User,sleep,ittyw){
 	try {
-		console.log('yellow \n[?] Try to Login . . .');
+		console.log(chalk`{yellow \n? Try to Login . . .}`)
 		const doLogin = await Login(User);
-		console.log(chalk`{bold.green [✓] Login Succsess} {yellow [?] Try To Get All Media . . .}`);
+		console.log(chalk`{green ✓ Login Succsess. }{yellow ? Try To Get All Media . . .}`);
 		var getMedia = await Media(doLogin.session, doLogin.account.id);
-		console.log(chalk`{bold.green [✓] Succsess to get Media. Media Length : ${getMedia.length}}\n`);
-		console.log(chalk`{yellow [#][>] START MASS DELETE WITH RATIO ${ittyw} MEDIA/${sleep} MiliSeconds [<][#]\n}`)
+		console.log(chalk`{green ✓ Succsess To Get All Media. Media Length : ${getMedia.length}}\n`);
+		console.log(chalk`{yellow ≡ READY TO START MASS DELETE WITH RATIO ${ittyw} MEDIA/${sleep} MiliSeconds\n}`)
 		getMedia = _.chunk(getMedia, ittyw);
+		var timeNow = new Date();
+        timeNow = `${timeNow.getHours()}:${timeNow.getMinutes()}:${timeNow.getSeconds()}`
 		for (let i = 0; i < getMedia.length; i++) {
 			await Promise.all(getMedia[i].map(async(media) => {
 				const doDelete = await Delete(doLogin.session, media.id);
-				const PrintOut = chalk`> ${media.link} => ${doDelete ? chalk`{bold.green Sukses}` : chalk`{bold.red Gagal}`}`
+				const PrintOut = chalk`{magenta ⌭ ${timeNow}}: ${media.link} ➾ ${doDelete ? chalk`{bold.green Sukses}` : chalk`{bold.red Gagal}`}`
 				console.log(PrintOut);
 			}))
-			console.log(chalk`{yellow \n[#][>] Delay For ${sleep} MiliSeconds [<][#]\n}`)
+			console.log(chalk`{yellow \nϟ Current Account: {bold.green ${User.username}} » Delay: ${ittyw}/${sleep}ms\n}`);
 			await delay(sleep)
 		}
 
