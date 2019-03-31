@@ -1,5 +1,9 @@
 'use strict'
-//Last modified by I Putu Jaya Adi Pranata (officialputuid) on March 21, 2019
+
+// Recode by officialputuid
+// Last modified by I Putu Jaya Adi Pranata (officialputuid) on March 30, 2019
+// fb|ig|twitter|gplus|line|github|behance|medium? officialputuid & https://officialputu.id
+
 const Client = require('instagram-private-api').V1;
 const delay = require('delay');
 const chalk = require('chalk');
@@ -131,24 +135,27 @@ async function ngeLike(session, id){
 
 const Excute = async function(User, TargetUsername, ittyw, sleep){
   try {
-    console.log('\n[?] Try to Login . . .');
+	console.log(chalk`{yellow \n? Try to Login . . .}`)
     const doLogin = await Login(User);
-    console.log(chalk`{bold.green [✓] Login Succsess} {yellow [?] Try To Get All Media . . .}`);  
+	console.log(chalk`{green ✓ Login Succsess. }{yellow ? Try To Get All Media Target . . .}`)
     const getTarget = await Target(TargetUsername);
     var getMedia = await Media(doLogin.session, getTarget.id);
-    console.log(chalk`{bold.green [✓] Succsess To Get All Media/Post From [${TargetUsername}] }\n`);
-    console.log(chalk`{yellow [#][>] START BOM LIKE TARGET WITH RATIO ${ittyw} TARGET/${sleep} MiliSeconds [<][#]\n}`)
+    console.log(chalk`{bold.green ✓ Succsess To Get All Media/Posts Target » ${TargetUsername} }\n`);
+    console.log(chalk`{yellow ≡ READY TO START BOM LIKE TARGET WITH RATIO ${ittyw} TARGET/${sleep} MiliSeconds\n}`)
     getMedia = _.chunk(getMedia, ittyw);
     for (let i = 0; i < getMedia.length; i++) {
+	  var timeNow = new Date();
+      timeNow = `${timeNow.getHours()}:${timeNow.getMinutes()}:${timeNow.getSeconds()}`
       await Promise.all(getMedia[i].map(async(media) => {
         const doDelete = await ngeLike(doLogin.session, media.id);
-        const PrintOut = chalk`[•] ${media.link} => ${doDelete ? chalk`{bold.green Success Liked}` : chalk`{bold.red Failed to Liked!}`}`
+        const PrintOut = chalk`{magenta ⌭ ${timeNow}} ➾ ${media.link} ➾ ${doDelete ? chalk`{bold.green Success Liked}` : chalk`{bold.red Failed to Liked!}`}`
         console.log(PrintOut);
       }))
-      console.log(chalk`{yellow \n[#][>] Delay For ${sleep} MiliSeconds [<][#]\n}`)
+	  console.log(chalk`{yellow \nϟ Current Account: {bold.green ${User.username}} » Delay: ${ittyw}/${sleep}ms\n}`);
           await delay(sleep)
     }
-    console.log(chalk`{bold.green [✓] All Posts Have Been Liked and Succeeded [The Tool Runs Well]\n}`)
+    console.log(chalk`{yellow ✓ All Posts Have Been Liked and Succeeded » Status: All Done » Time: ${timeNow} \n}`);
+	
   } catch (err) {
     console.log(err);
   }
@@ -164,4 +171,4 @@ inquirer.prompt(User)
     username:answers.username,
     password:answers.password
   },answers.target,answers.ittyw,answers.sleep);
-})
+});
