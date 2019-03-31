@@ -1,5 +1,9 @@
 'use strict'
-//Last modified by I Putu Jaya Adi Pranata (officialputuid) on March 21, 2019
+
+// Recode by officialputuid
+// Last modified by I Putu Jaya Adi Pranata (officialputuid) on March 30, 2019
+// fb|ig|twitter|gplus|line|github|behance|medium? officialputuid & https://officialputu.id
+
 const Client = require('instagram-private-api').V1; 
 const delay = require('delay');
 const chalk = require('chalk');
@@ -110,9 +114,9 @@ const main = async () => {
 
   console.log(chalk`{bold.green
   Ξ TITLE  : INSTAGRAM PRIVATE TOOLS
-  Ξ UPLOAD : 19/02/2019 [10.00 WITA]
+  Ξ UPLOAD : 31/03/2019 [12.13 WITA]
   Ξ CODEBY : Aldi Nugraha [Ccocot Ccocot]
-  Ξ UPDATE : officialputuid [Localheartzst1337]
+  Ξ UPDATE : I Putu Jaya Adi Pranata (officialputuid)
   Ξ FILES  : https://github.com/officialputuid/toolsig
   }`);
   console.log(chalk`{bold.red   •••••••••••••••••••••••••••••••••••••••••}`);
