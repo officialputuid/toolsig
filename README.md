@@ -72,12 +72,14 @@ $ [License](#license)
 	⚠ Make sure your account has been verified (Email & Telp).
 
 ## Update
-	☑ [Completed] Instagram API issues.
-	☑ [Completed] Problem in some tools because of nodejs error.
-	☑ [Completed] Problem with using this tool in RDP (Ex: TRY TO LOGIN dll).
-	☑ [Completed] Addition of features (Input Total of Target You Want/ITTYW) on all tools.
-	☑ [Completed] The update has been included in the Package so you don't need to update again (API IG).
-	☑ [Completed] Improvements In Display Program & Changes in system usage programs to make it easier to use.
+	
+	☑ [1][Completed] Instagram API issues.
+	☑ [2][Completed] Problem in some tools because of nodejs error.
+	☑ [3][Completed] Add information on the current Username (Current Account)
+	☑ [4][Completed] Problem with using this tool in RDP (Ex: TRY TO LOGIN dll).
+	☑ [5][Completed] Addition of features (Input Total of Target You Want/ITTYW) on all tools.
+	☑ [6][Completed] The update has been included in the Package so you don't need to update again (API IG).
+	☑ [7][Completed] Improvements In Display Program & Changes in system usage programs to make it easier to use.
 	   
 ## Contributing
 	☆ Aldi Nugraha a.k.a (Ccocot Ccocot).
@@ -94,4 +96,4 @@ $ [License](#license)
 	
 ## License
 	☑ This project is licensed under MIT License 2017-2019. https://opensource.org/licenses/MIT.
-	☑ Last modified by I Putu Jaya Adi Pranata (officialputuid) on March 21, 2019 
+	☑ Last modified by I Putu Jaya Adi Pranata (officialputuid) on March 31, 2019 
