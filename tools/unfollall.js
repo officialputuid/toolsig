@@ -1,5 +1,9 @@
 'use strict'
-//Last modified by I Putu Jaya Adi Pranata (officialputuid) on March 21, 2019
+
+// Recode by officialputuid
+// Last modified by I Putu Jaya Adi Pranata (officialputuid) on March 30, 2019
+// fb|ig|twitter|gplus|line|github|behance|medium? officialputuid & https://officialputu.id
+
 const Client = require('instagram-private-api').V1;
 const delay = require('delay');
 const chalk = require('chalk');
@@ -67,21 +71,22 @@ const Login = async function(User){
 const Unfollow = async function(session, accountId){
   try {
     await Client.Relationship.destroy(session, accountId);
-    return chalk`{bold.green SUKSES}`;
+    return chalk`{bold.green Success}`;
   } catch (err){
-    return chalk`{bold.red GAGAL}`;
+    return chalk`{bold.red Failed}`;
   }
 }
 
 const Excute = async function(User,sleep,ittyw){
 
   try {
-    console.log(chalk`{yellow \n[?] Try to Login . . .}`);
+    console.log(chalk`{yellow \n? Try to Login . . .}`);
     const doLogin = await Login(User);
-    console.log(chalk`{green [✓] Login Succsess. }\n{yellow [?] Try to Unfollow All Following . . .\n}`)
+    console.log(chalk`{green ✓ Login Succsess. }{yellow ? Try to Get Data Following . . .}`);
     const feed = new Client.Feed.AccountFollowing(doLogin.session, doLogin.account.id);
+	console.log(chalk`{green ✓ Succsess. }{yellow ? Try to Unfollow All Following . . .\n}`);
     var cursor;
-    console.log(chalk`{yellow [#][>] START UNFOLLALL WITH RATIO ${ittyw} TARGET/${sleep} MiliSeconds [<][#]\n}`)
+	console.log(chalk`{yellow ≡ READY TO START UNFOLLALL WITH RATIO ${ittyw} TARGET/${sleep} MiliSeconds\n}`);
     do{
       if (cursor) feed.setCursor(cursor);
       var getPollowers = await feed.get();
@@ -91,14 +96,14 @@ const Excute = async function(User,sleep,ittyw){
         timeNow = `${timeNow.getHours()}:${timeNow.getMinutes()}:${timeNow.getSeconds()}`
         await Promise.all(getPollowers[i].map(async(account) => {
           const doUnfollow = await Unfollow(doLogin.session, account.id);
-          console.log(chalk`[{magenta ${timeNow}}] Unfollow {yellow @${account.params.username}} => ${doUnfollow}`);
+          console.log(chalk`{magenta ⌭ ${timeNow}}: @${account.params.username} ➾ Unfollow: ${doUnfollow}`);
         }));
-        console.log(chalk`{yellow \n[#][>] Delay For ${sleep} MiliSeconds [<][#]\n}`);
+		console.log(chalk`{yellow \nϟ Current Account: {bold.green ${User.username}} » Delay: ${ittyw}/${sleep}ms\n}`);
         await delay(sleep);
       }
       cursor = await feed.getCursor();
     } while(feed.isMoreAvailable())
-    console.log(chalk`{bold.green [✓] Unfollow All Succsess}`)
+    console.log(chalk`{yellow ✓ Unfollow All Following Succeeded » Status: All Done » Time: ${timeNow} \n}`);
   } catch(e) {
     console.log(e)
   }
@@ -114,4 +119,4 @@ inquirer.prompt(User)
     username:answers.username,
     password:answers.password
   },answers.sleep,answers.ittyw);
-})
+});
