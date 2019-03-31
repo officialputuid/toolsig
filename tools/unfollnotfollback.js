@@ -1,5 +1,9 @@
 'use strict'
-//Last modified by I Putu Jaya Adi Pranata (officialputuid) on March 21, 2019
+
+// Recode by officialputuid
+// Last modified by I Putu Jaya Adi Pranata (officialputuid) on March 30, 2019
+// fb|ig|twitter|gplus|line|github|behance|medium? officialputuid & https://officialputu.id
+
 const Client = require('instagram-private-api').V1;
 const delay = require('delay');
 const chalk = require('chalk');
@@ -106,40 +110,40 @@ const Following = async function(session, id){
 const Unfollow = async function(session, accountId){
 	try {
 		await Client.Relationship.destroy(session, accountId);
-		return chalk`{bold.green SUKSES}`;
+		return chalk`{bold.green Success}`;
 	} catch (err){
-		return chalk`{bold.red GAGAL}`;
+		return chalk`{bold.red Failed}`;
 	}
 }
 
 const Excute = async function(User,sleep,ittyw){
 	try {
-		console.log(chalk`\n{yellow [?] Try to Login . . .}`);
+		console.log(chalk`\n{yellow ? Try to Login . . .}`);
 		const doLogin = await Login(User);
-		console.log(chalk`{green [✓] Login Succsess.} {yellow [?] Try to get list followers, following and unfollow . . .}`);
+		console.log(chalk`{green ✓ Login Succsess. }{yellow ? Try to get list followers, following and unfollow . . .}`);
 		const task = [
 		Followers(doLogin.session, doLogin.account.id),
 		Following(doLogin.session, doLogin.account.id)
 		]
 		const [getFollowers, getFollowing] = await Promise.all(task);
-		console.log(chalk`{bold.green \n[•] Total Followers : ${getFollowers.length}\n[•] Total Following : ${getFollowing.length}}`);
+		console.log(chalk`{green ! Successfully Get Data: {bold.cyan Followers: ${getFollowers.length}} » {bold.cyan Following: ${getFollowing.length}}}`);
 		var AccountToUnfollow = [];
 		await Promise.all(getFollowing.map(async(account) => {
 			if (!getFollowers.includes(account)) {
 				await AccountToUnfollow.push(account);
 			}
 		}));
-		console.log(chalk`{bold.magenta [✓] Total Unfollow  : ${AccountToUnfollow.length}}\n`)
-		console.log(chalk`{yellow [#][>] START UFNFB WITH RATIO ${ittyw} TARGET/${sleep} MiliSeconds [<][#]\n}`)
+		console.log(chalk`{green ! Success in Finding Value {bold.red Unfollow: ${AccountToUnfollow.length}}\n}`);
+		console.log(chalk`{yellow ≡ READY TO START UFNFB WITH RATIO ${ittyw} TARGET/${sleep} MiliSeconds\n}`);
 		AccountToUnfollow = _.chunk(AccountToUnfollow, ittyw);
 		for (let i = 0; i < AccountToUnfollow.length; i++) {
 			var timeNow = new Date();
 			timeNow = `${timeNow.getHours()}:${timeNow.getMinutes()}:${timeNow.getSeconds()}`
 			await Promise.all(AccountToUnfollow[i].map(async(akun) => {
 				const doUnfollow = await Unfollow(doLogin.session, akun);
-				console.log(chalk`[{magenta ${timeNow}}] Unfollow {blue [${akun}]} => ${doUnfollow}`);
+				console.log(chalk`{magenta ⌭ ${timeNow}}: @${akun} ➾ Unfollow ${doUnfollow}`);
 			}))
-			await console.log(chalk`{yellow \n[#][>] Delay For ${sleep} MiliSeconds [<][#]\n}`);
+			await console.log(chalk`{yellow \nϟ Current Account: {bold.green ${User.username}} » Delay: ${ittyw}/${sleep}ms\n}`);
 			await delay(sleep);
 		}
 	} catch(err) {
@@ -157,4 +161,4 @@ inquirer.prompt(User)
 		username:answers.username,
 		password:answers.password
 	},answers.sleep,answers.ittyw);
-})
+});
