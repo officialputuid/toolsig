@@ -1,5 +1,9 @@
 'use strict'
-//Last modified by I Putu Jaya Adi Pranata (officialputuid) on March 21, 2019
+
+// Recode by officialputuid
+// Last modified by I Putu Jaya Adi Pranata (officialputuid) on March 30, 2019
+// fb|ig|twitter|gplus|line|github|behance|medium? officialputuid & https://officialputu.id
+
 const Client = require('instagram-private-api').V1;
 const delay = require('delay');
 const chalk = require('chalk');
@@ -57,7 +61,7 @@ const Timeline = async function(session,count,cursor){
 
     try {
         const media = await feed.get();
-        console.log('\n[+] Detect Cursor => %s\n', count);
+        console.log('\nϟ Detect Cursor => %s\n', count);
         await Promise.all(media.map(async(media) => {
             Like(session,media);
         }));
@@ -65,7 +69,7 @@ const Timeline = async function(session,count,cursor){
             getCursor = await feed.getCursor();
             await Timeline(session,count,getCursor);
         } else {
-            console.log('[-] Repeat from scratch (Delay 60s)\n');
+            console.log('ϟ Repeat from scratch (Delay 60s)\n');
             await delay(60000);
             count=0;
             await Timeline(session,count);
@@ -83,9 +87,9 @@ const Like = async function(session,media){
         timeNow = `${timeNow.getHours()}:${timeNow.getMinutes()}:${timeNow.getSeconds()}`
         if (media.params.hasLiked === false){
             const Like = await Client.Like.create(session, media.params.id);
-            console.log(chalk`{bold.cyan |> Media ID: ${media.id}}]\n|> {bold.blue ${timeNow}}: Username: [${media.params.user.username}] => [{bold.green Success Liked}]\n`);
+            console.log(chalk`{magenta ⌭ ${timeNow}}: ${media.params.user.username} ➾ {cyan ${media.id}} ➾ {bold.green Success Liked}`);
         } else {
-            console.log(chalk`{bold.cyan |> Media ID: ${media.id}}]\n|> {bold.blue ${timeNow}}: Username: [${media.params.user.username}] => [{bold.red Already Liked}]\n`);
+            console.log(chalk`{magenta ⌭ ${timeNow}}: ${media.params.user.username} ➾ {cyan ${media.id}} ➾ {bold.red Already Liked}`);
         }
     } catch (err) {
         return Promise.reject(err);
