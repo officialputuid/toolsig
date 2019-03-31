@@ -1,5 +1,9 @@
 'use strict'
-//Last modified by I Putu Jaya Adi Pranata (officialputuid) on March 21, 2019
+
+// Recode by officialputuid
+// Last modified by I Putu Jaya Adi Pranata (officialputuid) on March 30, 2019
+// fb|ig|twitter|gplus|line|github|behance|medium? officialputuid & https://officialputu.id
+
 const Client = require('instagram-private-api').V1;
 const delay = require('delay');
 const chalk = require('chalk');
@@ -69,23 +73,25 @@ const Like = async function(session,media){
 
 const Excute = async function(User, sleep){
     try {
-        console.log(chalk`{yellow \n[?] Try to Login . . .}`);
-        const doLogin = await Login(User);
-        console.log(chalk`{green [✓] Login Succsess}.\n{yellow [?] Try Like All Media in Feed / Timeline . . .\n}`);
+		console.log(chalk`{yellow \n? Try to Login . . .}`)
+		const doLogin = await Login(User);
+		console.log(chalk`{green ✓ Login Succsess. }{yellow ? Try Get All Media in Feed / Timeline . . .}`)
         const feed = new Client.Feed.Timeline(doLogin.session);
+		console.log(chalk`{green ✓ Succsess To Get List All Media in Feed / Timeline » ${User.username}\n}`);
         var cursor;
+		console.log(chalk`{yellow ≡ READY TO START BOTLIKE V1 WITH RATIO RAND 1-5 TARGET/${sleep} MiliSeconds\n}`)
         do {
             var timeNow = new Date();
             timeNow = `${timeNow.getHours()}:${timeNow.getMinutes()}:${timeNow.getSeconds()}`
             if (cursor) feed.setCursor(cursor);
             var media = await feed.get();
-            media = _.chunk(media, 10);
+            media = _.chunk(media, 5);
             for (var i = 0; i < media.length; i++) {
                 await Promise.all(media[i].map(async (media) => {
                     const doLike = await Like(doLogin.session, media);
-                    console.log(chalk`[{magenta ${timeNow}}]: Username: [${media.params.user.username}]\n[{cyan ${media.id}}] => [${doLike}]`);
+                    console.log(chalk`{magenta ⌭ ${timeNow}}: ${media.params.user.username} ➾ {cyan ${media.id}} ➾ ${doLike}`);
                 }))
-                await console.log(chalk`{yellow \n[#][>] Delay For ${sleep} MiliSeconds [<][#]\n}`);
+                await console.log(chalk`{yellow \nϟ Current Account: {bold.green ${User.username}} » Delay: RAND 1-5/${sleep}ms\n}`);
                 await delay(sleep);
             }
         } while(feed.isMoreAvailable());
