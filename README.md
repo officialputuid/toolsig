@@ -54,16 +54,16 @@ $ [License](#license)
 	$ node index.js
 
 ## Information Tools
-	$ BomLikeTarget	    "LIKE/LOVE ALL MEDIA/POST TARGET"		[USING ITTYW]		   [f-01][NORMAL]
-	$ Botlike1	    "LIKE/LOVE TIMELINE INSTAGRAM"		[5 TARGET/DELAY]	   [f-02][NORMAL]
-	$ Botlike2	    "LIKE/LOVE TIMELINE INSTAGRAM" 		[USING CURSOR *AUTOMATIC]  [f-03][NORMAL]
-	$ Dellallphoto	    "DELETE ALL MEDIA/POST INSTAGRAM" 		[USING ITTYW]		   [f-04][NORMAL]
-	$ Fah		    "FOLLOW,LIKE,COMMENT TARGET HASTAG" 	[USING ITTYW]		   [f-05][NORMAL]
-	$ Fftauto	    "FOLLOW,LIKE,COMMENT TARGET FOLLOWER USER"	[USING ITTYW]		   [f-06][NORMAL]
-	$ Flaauto	    "FOLLOW,LIKE,COMMENT TARGET LOCATION-ID" 	[USING CURSOR *AUTOMATIC]  [f-07][NORMAL]
-	$ Flmauto	    "FOLLOW,LIKE,COMMENT TARGET MEDIA/POST" 	[USING ITTYW]		   [f-08][NORMAL]
-	$ Unfollall	    "UNFOLOW ALL FOLLOWING INSTAGRAM" 		[USING ITTYW]		   [f-09][NORMAL]
-	$ Unfollnotfollback "UNFOLLOW NOT FOLLOWBACK INSTAGRAM" 	[USING ITTYW]		   [f-10][NORMAL]
+	$ BomLikeTarget	    "LIKE/LOVE ALL MEDIA/POST TARGET"		[USING ITTYW]
+	$ Botlike1	    "LIKE/LOVE TIMELINE INSTAGRAM"		[5 TARGET/DELAY]
+	$ Botlike2	    "LIKE/LOVE TIMELINE INSTAGRAM" 		[USING CURSOR *AUTOMATIC]
+	$ Dellallphoto	    "DELETE ALL MEDIA/POST INSTAGRAM" 		[USING ITTYW]
+	$ Fah		    "FOLLOW,LIKE,COMMENT TARGET HASTAG" 	[USING ITTYW]
+	$ Fftauto	    "FOLLOW,LIKE,COMMENT TARGET FOLLOWER USER"	[USING ITTYW]
+	$ Flaauto	    "FOLLOW,LIKE,COMMENT TARGET LOCATION-ID" 	[USING CURSOR *AUTOMATIC]
+	$ Flmauto	    "FOLLOW,LIKE,COMMENT TARGET MEDIA/POST" 	[USING ITTYW]
+	$ Unfollall	    "UNFOLOW ALL FOLLOWING INSTAGRAM" 		[USING ITTYW]
+	$ Unfollnotfollback "UNFOLLOW NOT FOLLOWBACK INSTAGRAM" 	[USING ITTYW]
 
 ## Warning
 	⚠ Use tools at your own risk.
@@ -73,13 +73,13 @@ $ [License](#license)
 
 ## Update
 	
-	☑ [1][Completed] Instagram API issues.
-	☑ [2][Completed] Problem in some tools because of nodejs error.
-	☑ [3][Completed] Add information on the current Username (Current Account)
-	☑ [4][Completed] Problem with using this tool in RDP (Ex: TRY TO LOGIN dll).
-	☑ [5][Completed] Addition of features (Input Total of Target You Want/ITTYW) on all tools.
-	☑ [6][Completed] The update has been included in the Package so you don't need to update again (API IG).
-	☑ [7][Completed] Improvements In Display Program & Changes in system usage programs to make it easier to use.
+	☑ [31/03/2019] Instagram API issues.
+	☑ [31/03/2019] Problem in some tools because of nodejs error.
+	☑ [31/03/2019] Add information on the current Username (Current Account)
+	☑ [31/03/2019] Problem with using this tool in RDP (Ex: TRY TO LOGIN dll).
+	☑ [31/03/2019] Addition of features (Input Total of Target You Want/ITTYW) in some tools.
+	☑ [31/03/2019] The update has been included in the Package so you don't need to update again.
+	☑ [31/03/2019] Improvements In Display Program & Changes in system usage programs to make it easier to use.
 	   
 ## Contributing
 	☆ Aldi Nugraha a.k.a (Ccocot Ccocot).
