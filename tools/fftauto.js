@@ -1,5 +1,9 @@
 'use strict'
-//Last modified by I Putu Jaya Adi Pranata (officialputuid) on March 21, 2019
+
+// Recode by officialputuid
+// Last modified by I Putu Jaya Adi Pranata (officialputuid) on March 30, 2019
+// fb|ig|twitter|gplus|line|github|behance|medium? officialputuid & https://officialputu.id
+
 const Client = require('instagram-private-api').V1;
 const delay = require('delay');
 const chalk = require('chalk');
@@ -155,9 +159,9 @@ const CommentAndLike = async function(session, accountId, text){
     const printFollow = Follow ? chalk`{green Follow}` : chalk`{red Follow}`;
     const printComment = Comment ? chalk`{green Comment}` : chalk`{red Comment}`;
     const printLike = Like ? chalk`{green Like}` : chalk`{red Like}`;
-    return chalk`{bold.green ${printFollow},${printComment},${printLike} [${text}]}`;
+    return chalk`{bold.green ${printFollow}:${printComment}:${printLike} » {bold.cyan ${text}}}`;
   }
-  return chalk`{bold.cyan Aw, Snap! Timeline Kosong (SKIPPED)}`
+  return chalk`{cyan {bold.red (SKIPPED)} TIMELINE EMPTY!}`
 };
 
 const Followers = async function(session, id){
@@ -181,16 +185,16 @@ const Followers = async function(session, id){
 
 const Excute = async function(User, TargetUsername, Text, Sleep, ittyw){
   try {
-    console.log(chalk`{yellow \n[?] Try to Login . . .}`)
+    console.log(chalk`{yellow \n? Try to Login . . .}`)
     const doLogin = await Login(User);
-    console.log(chalk`{green [✓] Login Succsess. }{yellow [?] Try To Get ID & Followers Target . . .}`)
+    console.log(chalk`{green ✓ Login Succsess. }{yellow ? Try To Get ID & Followers Target . . .}`)
     const getTarget = await Target(TargetUsername);
-    console.log(chalk`{green [✓] ${TargetUsername}: [${getTarget.id}] | Total Followers: [${getTarget.followers}]}`)
+    console.log(chalk`{green ✓ UserID ${TargetUsername}»${getTarget.id} ϟ Total Followers: [${getTarget.followers}]}`)
     const getFollowers = await Followers(doLogin.session, doLogin.account.id)
-    console.log(chalk`{cyan [?] Try to Follow, Comment, and Like Followers Target . . . \n}`)
+    console.log(chalk`{cyan ? Try to Follow, Comment, and Like Followers Target . . . \n}`)
     const Targetfeed = new Client.Feed.AccountFollowers(doLogin.session, getTarget.id);
     var TargetCursor;
-    console.log(chalk`{yellow [#][>] START FFTAUTO WITH RATIO ${ittyw} TARGET/${Sleep} MiliSeconds [<][#]\n}`)
+    console.log(chalk`{yellow ≡ READY TO START FFTAUTO WITH RATIO ${ittyw} TARGET/${Sleep} MiliSeconds\n}`)
     do {
       if (TargetCursor) Targetfeed.setCursor(TargetCursor);
       var TargetResult = await Targetfeed.get();
@@ -202,16 +206,16 @@ const Excute = async function(User, TargetUsername, Text, Sleep, ittyw){
           if (!getFollowers.includes(akun.id) && akun.params.isPrivate === false) {
             var ranText = Text[Math.floor(Math.random() * Text.length)];
             const ngeDo = await CommentAndLike(doLogin.session, akun.id, ranText)
-            console.log(chalk`[{magenta ${timeNow}}] {bold.green [>]}${akun.params.username} => ${ngeDo}`)
+            console.log(chalk`{magenta ⌭ ${timeNow}}: ${akun.params.username} ➾ ${ngeDo}`)
           } else {
-            console.log(chalk`[{magenta ${timeNow}}] {bold.yellow [SKIPPED]}${akun.params.username} => PRIVATE OR ALREADY FOLLOWED`)
+            console.log(chalk`{magenta ⌭ ${timeNow}}: ${akun.params.username} ➾ {bold.red SKIPPED} ➾ PRIVATE/FOLLOWED!`)
           }
         }));
-        console.log(chalk`{yellow \n[#][>] Delay For ${Sleep} MiliSeconds [<][#]\n}`);
+        console.log(chalk`{yellow \nϟ Current Account: {bold.green ${User.username}} » Delay: ${ittyw}/${Sleep}ms\n}`);
         await delay(Sleep);
       }
       TargetCursor = await Targetfeed.getCursor();
-      console.log(chalk`{yellow \n[#][>] Delay For ${Sleep} MiliSeconds [<][#]\n}`);
+      console.log(chalk`{yellow \nϟ Current Account: {bold.green ${User.username}} » Delay: ${ittyw}/${Sleep}ms\n}`);
       await delay(Sleep);
     } while(Targetfeed.isMoreAvailable());
   } catch (err) {
