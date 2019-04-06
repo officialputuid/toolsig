@@ -73,13 +73,13 @@ $ [License](#license)
 
 ## Update
 	
-	☑ [31/03/2019] Instagram API issues.
-	☑ [31/03/2019] Problem in some tools because of nodejs error.
-	☑ [31/03/2019] Add information on the current Username (Current Account)
-	☑ [31/03/2019] Problem with using this tool in RDP (Ex: TRY TO LOGIN dll).
-	☑ [31/03/2019] Addition of features (Input Total of Target You Want/ITTYW) in some tools.
-	☑ [31/03/2019] The update has been included in the Package so you don't need to update again.
-	☑ [31/03/2019] Improvements In Display Program & Changes in system usage programs to make it easier to use.
+	☑ Fix Instagram API issues.
+	☑ Fix Problem in some tools because of nodejs error.
+	☑ Add information on the current Username (Current Account)
+	☑ Fix Problem with using this tool in RDP (Ex: TRY TO LOGIN dll).
+	☑ Addition of features (Input Total of Target You Want/ITTYW) in some tools.
+	☑ The update has been included in the Package so you don't need to update again.
+	☑ Improvements In Display Program & Changes in system usage programs to make it easier to use.
 	   
 ## Contributing
 	☆ Aldi Nugraha a.k.a (Ccocot Ccocot).
@@ -96,4 +96,3 @@ $ [License](#license)
 	
 ## License
 	☑ This project is licensed under MIT License 2017-2019. https://opensource.org/licenses/MIT.
-	☑ Last modified by I Putu Jaya Adi Pranata (officialputuid) on March 31, 2019 
