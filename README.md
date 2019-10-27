@@ -2,7 +2,7 @@
 * Instagram Tools Based on NodeJS (This script or code was created by ccocot - Aldi Nugraha).
 * Tools (BomLikeTarget,Botlike1,Botlike2,Dellallphoto,Lnkauto,Fah,Fftauto,Flaauto,Flmauto,Unfollall,Unfollnotfollback).
 
-[![Build](https://img.shields.io/badge/Codename_-_officialputuid-brightgreen.svg)]()
+[![Build](https://img.shields.io/badge/Codename_-_asemele-brightgreen.svg)]()
 [![License](http://img.shields.io/:license-MIT-brightgreen.svg?style=flat)](LICENSE)
 [![Badges](https://img.shields.io/badge/badges-%F0%9F%91%8D-brightgreen.svg)](https://shields.io/)
 
