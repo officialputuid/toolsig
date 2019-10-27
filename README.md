@@ -78,6 +78,7 @@ $ [License](#license)
 	   
 ## Other Information
 	☆ Aldi Nugraha a.k.a (Ccocot Ccocot).
+	☆ Asemele
 	☆ Zerobyte.id - BC0DE.NET - NAONLAH.NET - WingKocoli.
 	☆ Thank you for the help of all members SGB TEAM REBORN (https://www.sgb.or.id/).
 	
