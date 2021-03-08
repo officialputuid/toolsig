@@ -1,4 +1,4 @@
-## toolsig v3 (Instagram Tools)
+## toolsig v3.1 (Instagram Tools)
 * Instagram (also called IG or Insta) is a photo and video sharing application that allows users to take photos, take videos, apply digital filters and share them to various social networking services, including Instagram's own.
 * Instagram Tools Based on NodeJS (This script or code was created by ccocot - Aldi Nugraha).
 
@@ -69,8 +69,7 @@ $ [Other Information](#Other-Information)
 	⚠ Make sure your account has been verified (Email & Telp)
 
 ## Update
-	☑ [19/02/2021] update toolsig v3
-	☑ [19/02/2021] improve some code, and other experiments
+	☑ [08/03/2021] toolsig v3.1: resync, fix misc and improve some code & experiments
 
 ## Attention
 	☑ This file was originally changed by officialputuid,
