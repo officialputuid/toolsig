@@ -1,0 +1,28 @@
+{
+  "name": "toolsig",
+  "version": "3.0.0",
+  "description": "Open Source Instagram Tools",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/officialputuid/toolsig.git"
+  },
+  "author": "officialputuid",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/officialputuid/toolsig/issues"
+  },
+  "homepage": "https://github.com/officialputuid/toolsig#readme",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "colors": "^1.4.0",
+    "fs": "0.0.1-security",
+    "inquirer": "^6.5.0",
+    "instagram-private-api": "^1.21.1",
+    "moment": "^2.29.1",
+    "user-home": "^2.0.0"
+  }
+}
