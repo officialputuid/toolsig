@@ -110,7 +110,7 @@ const {
                   print(
                     `▲ @${
                       follower.username
-                    } ⇶ [${follow}, ${like}]}`
+                    } ⇶ [${follow}, ${like}]`
                   );
                 } else
                   print(
