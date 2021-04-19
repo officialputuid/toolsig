@@ -1,4 +1,4 @@
-## toolsig v3.1 (Instagram Tools)
+## toolsig v3.2 (Instagram Tools)
 * Instagram (also called IG or Insta) is a photo and video sharing application that allows users to take photos, take videos, apply digital filters and share them to various social networking services, including Instagram's own.
 * Instagram Tools Based on NodeJS (This script or code was created by ccocot - Aldi Nugraha).
 
@@ -69,7 +69,8 @@ $ [Other Information](#Other-Information)
 	⚠ Make sure your account has been verified (Email & Telp)
 
 ## Update
-	☑ [08/03/2021] toolsig v3.1: resync, fix misc and improve some code & experiments
+	☑ [19/04/2021] toolsig v3.2: resync, fix misc and improve some code & experiments
+	☑ [19/04/2021] toolsig v3.2: added flonly.js & lconly.js (follow like & like comment)
 
 ## Attention
 	☑ This file was originally changed by officialputuid,
@@ -82,7 +83,7 @@ $ [Other Information](#Other-Information)
 	☆ Thank you for the help of all members SGB TEAM REBORN (https://www.sgb.or.id/)
 
 ## License
-	☑ This project is licensed under MIT License 2017-2020. https://opensource.org/licenses/MIT
+	☑ This project is licensed under MIT License 2017-2021. https://opensource.org/licenses/MIT
 
 ## Me!
 	☆ fb|ig|twitter|gplus|keybase|line|github|behance|medium? officialputuid

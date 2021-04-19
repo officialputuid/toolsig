@@ -22,6 +22,9 @@ const questionTools = [
   "➥ Bot Like Target User",
   "➥ Mass Delete Post/Photo",
 
+  "➥ F-L -> Followers Target",
+  "➥ L-C -> Followers Target",
+
   "➥ F-L-C -> Followers Target",
   "➥ F-L-C -> Followers Target [BETA]",
 
@@ -53,16 +56,18 @@ const main = async () => {
     choice == questionTools[1] && require("./tools/liketimeline.js");
     choice == questionTools[2] && require("./tools/liketarget.js");
     choice == questionTools[3] && require("./tools/delallmedia.js");
-    choice == questionTools[4] && require("./tools/fftauto.js");
-    choice == questionTools[5] && require("./tools/fftbetaauto.js");
-    choice == questionTools[6] && require("./tools/fftautov2.js");
-    choice == questionTools[7] && require("./tools/fftdmauto.js");
-    choice == questionTools[8] && require("./tools/fftdmbetaauto.js");
-    choice == questionTools[9] && require("./tools/fhtauto.js");
-    choice == questionTools[10] && require("./tools/fltauto.js");
-    choice == questionTools[11] && require("./tools/unfollowall.js");
-    choice == questionTools[12] && require("./tools/unfollnotfollback.js");
-    choice == questionTools[13] && process.exit();
+    choice == questionTools[4] && require("./tools/flonly.js");
+    choice == questionTools[5] && require("./tools/lconly.js");
+    choice == questionTools[6] && require("./tools/fftauto.js");
+    choice == questionTools[7] && require("./tools/fftbetaauto.js");
+    choice == questionTools[8] && require("./tools/fftautov2.js");
+    choice == questionTools[9] && require("./tools/fftdmauto.js");
+    choice == questionTools[10] && require("./tools/fftdmbetaauto.js");
+    choice == questionTools[11] && require("./tools/fhtauto.js");
+    choice == questionTools[12] && require("./tools/fltauto.js");
+    choice == questionTools[13] && require("./tools/unfollowall.js");
+    choice == questionTools[14] && require("./tools/unfollnotfollback.js");
+    choice == questionTools[15] && process.exit();
   } catch (err) {
     print(err, "err");
   }
@@ -75,8 +80,8 @@ console.log(chalk`{bold.green
    ▐█▌·▐█▌.▐▌▐█▌.▐▌▐█▌▐▌▐█▄▪▐█▐█▌▐█▄▪▐█
    ▀▀▀  ▀█▄▀▪ ▀█▄▀▪.▀▀▀  ▀▀▀▀ ▀▀▀·▀▀▀▀ 
 
-  Ξ TITLE  : toolsig v3.1
-  Ξ UPDATE : 08/03/2021#12:00
+  Ξ TITLE  : toolsig v3.2
+  Ξ UPDATE : 19/04/2021 - 16:15
   Ξ EMAIL  : officialputuid@hack.id
 
   116 111 111 108 115 105 103  118 51 
