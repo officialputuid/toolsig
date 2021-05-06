@@ -52,6 +52,8 @@ $ [Other Information](#Other-Information)
 	➥ Bot Like Timeline
 	➥ Bot Like Target User
 	➥ Mass Delete Post/Photo
+	➥ Followers Target [NEW]
+	➥ Followers Target [NEW]
 	➥ F-L-C -> Followers Target
 	➥ F-L-C -> Followers Target [BETA]
 	➥ F-L-C -> Followers Target v2
@@ -83,7 +85,4 @@ $ [Other Information](#Other-Information)
 	☆ Thank you for the help of all members SGB TEAM REBORN (https://www.sgb.or.id/)
 
 ## License
-	☑ This project is licensed under MIT License 2017-2021. https://opensource.org/licenses/MIT
-
-## Me!
-	☆ fb|ig|twitter|gplus|keybase|line|github|behance|medium? officialputuid
+	☑ This project is licensed under MIT License 2021. https://opensource.org/licenses/MIT
