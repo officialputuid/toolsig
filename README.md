@@ -52,8 +52,8 @@ $ [Other Information](#Other-Information)
 	➥ Bot Like Timeline
 	➥ Bot Like Target User
 	➥ Mass Delete Post/Photo
-	➥ Followers Target [NEW]
-	➥ Followers Target [NEW]
+	➥ F-L -> Followers Target [NEW]
+	➥ L-C -> Followers Target [NEW]
 	➥ F-L-C -> Followers Target
 	➥ F-L-C -> Followers Target [BETA]
 	➥ F-L-C -> Followers Target v2
