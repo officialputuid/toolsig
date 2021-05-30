@@ -106,20 +106,20 @@ const {
                 const msg = text[Math.floor(Math.random() * text.length)];
                 if (lastMedia.length != 0 && lastMedia[0].pk) {
                   const task = [
-                    ig.follow(follower.pk),
+                    ig.like(lastMedia[0].pk),
                     ig.comment(lastMedia[0].pk, msg),
                   ];
-                  let [follow, comment] = await Promise.all(task);
-                  follow = follow
-                    ? chalk.bold.green(`Follow`)
-                    : chalk.bold.red("Follow");
+                  let [like, comment] = await Promise.all(task);
+                  like = like
+                    ? chalk.bold.green("Like")
+                    : chalk.bold.red("Like");
                   comment = comment
                     ? chalk.bold.green("Comment")
                     : chalk.bold.red("Comment");
                   print(
                     `▲ @${
                       follower.username
-                    } ⇶ [${follow}, ${comment}] ⇶ ${chalk.cyanBright(
+                    } ⇶ [${like}, ${comment}] ⇶ ${chalk.cyanBright(
                       msg
                     )}`
                   );
