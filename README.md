@@ -61,6 +61,10 @@ $ [Other Information](#OTHER-INFORMATION)
 	➥ F-L-C -> Location Target
 	➥ Unfollow All Following
 	➥ Unfollow Not Followback
+	
+	🛈 F-L = Follow & Like
+	🛈 F-L-C = Follow, Like & Comment
+	🛈 F-L-DM = Follow, Like & Direct Message
 
 ## WARNING
 	⚠ Use tools at your own risk
