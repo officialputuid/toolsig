@@ -22,7 +22,7 @@
         "fs": "0.0.1-security",
         "inquirer": "^6.5.0",
         "instagram-private-api": "^1.21.1",
-        "moment": "^2.29.1",
+        "moment": "^2.29.4",
         "user-home": "^2.0.0"
     }
 }
